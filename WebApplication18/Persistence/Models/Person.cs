@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Persistence.Models
+namespace WebApplication18.Persistence.Models
 {
     public class Person
     {
@@ -29,6 +30,5 @@ namespace Persistence.Models
         public bool Happy { get; set; }
 
         public bool Joyous { get; set; }
-        
     }
 }

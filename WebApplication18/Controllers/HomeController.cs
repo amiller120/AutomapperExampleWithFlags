@@ -30,7 +30,7 @@ namespace WebApplication18.Controllers
         public IActionResult Index()
         {
             // Be careful when using any extractor... Safety first            
-            var person = NoNamePersonExtractor.CreatePerson();
+            var person = PersonExtractor.CreatePerson();
             
             var persistenceObject = _mapper.Map<Domain.Models.Person, Persistence.Models.Person>(person);
             

@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Persistence.Mappers.Inbound
+namespace WebApplication18.Persistence.Mappers.Inbound
 {
     public class PersonConverter : ITypeConverter<Domain.Models.Person, Models.Person>
     {
@@ -15,7 +15,7 @@ namespace Persistence.Mappers.Inbound
                     FirstName = source.FirstName,
                     LastName = source.LastName,
                     MoodStatus = (int)source.Mood,
-                    
+
                 };
                 person.Tired = DetermineMood(1, person.MoodStatus);
                 person.Sad = DetermineMood(2, person.MoodStatus);

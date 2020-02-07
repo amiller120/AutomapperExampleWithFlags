@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 
-namespace Persistence.Mappers.Outbound
+namespace WebApplication18.Persistence.Mappers.Outbound
 {
     public class PersonConverter : ITypeConverter<Models.Person, Domain.Models.Person>
     {

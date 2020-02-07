@@ -1,5 +1,5 @@
 ﻿using AutoMapper;
-using Persistence.Mappers;
+using WebApplication18.Persistence.Mappers;
 
 namespace WebApplication18.Config
 {
@@ -9,7 +9,7 @@ namespace WebApplication18.Config
         {
             var mappingConfig = new MapperConfiguration(mc =>
             {
-                mc.AddProfile(new PersistenceProfile());
+                mc.AddProfile(new PersistenceAutoMapperProfiles());
             });
 
             IMapper mapper = mappingConfig.CreateMapper();

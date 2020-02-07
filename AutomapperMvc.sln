@@ -3,11 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29409.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication18", "WebApplication18\WebApplication18.csproj", "{FBDC5EA3-86C4-4364-B78A-875027750E33}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApplication18", "WebApplication18\WebApplication18.csproj", "{FBDC5EA3-86C4-4364-B78A-875027750E33}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{AEFEBDCE-8FCC-46CD-84A3-BBDEB838EAA1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "Persistence\Persistence.csproj", "{40D4BE92-5E62-4691-BE99-5E318E360207}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{AEFEBDCE-8FCC-46CD-84A3-BBDEB838EAA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +21,6 @@ Global
 		{AEFEBDCE-8FCC-46CD-84A3-BBDEB838EAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AEFEBDCE-8FCC-46CD-84A3-BBDEB838EAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AEFEBDCE-8FCC-46CD-84A3-BBDEB838EAA1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{40D4BE92-5E62-4691-BE99-5E318E360207}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{40D4BE92-5E62-4691-BE99-5E318E360207}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{40D4BE92-5E62-4691-BE99-5E318E360207}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{40D4BE92-5E62-4691-BE99-5E318E360207}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
