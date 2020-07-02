@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Domain.Models;
 
 namespace WebApplication18.Persistence.Mappers.Inbound
 {
@@ -17,11 +18,11 @@ namespace WebApplication18.Persistence.Mappers.Inbound
                     MoodStatus = (int)source.Mood,
 
                 };
-                person.Tired = DetermineMood(1, person.MoodStatus);
-                person.Sad = DetermineMood(2, person.MoodStatus);
-                person.Bored = DetermineMood(4, person.MoodStatus);
-                person.Happy = DetermineMood(8, person.MoodStatus);
-                person.Joyous = DetermineMood(16, person.MoodStatus);
+                person.Tired = DetermineMood((int)MoodStatus.Tired, person.MoodStatus);
+                person.Sad = DetermineMood((int)MoodStatus.Sad, person.MoodStatus);
+                person.Bored = DetermineMood((int)MoodStatus.Bored, person.MoodStatus);
+                person.Happy = DetermineMood((int)MoodStatus.Happy, person.MoodStatus);
+                person.Joyous = DetermineMood((int)MoodStatus.Joyous, person.MoodStatus);
             }
 
             return person;
